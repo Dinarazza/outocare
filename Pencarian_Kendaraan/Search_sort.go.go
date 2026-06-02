@@ -1,4 +1,4 @@
-package ui
+package main
 
 import (
 	"autocare/repository"
@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+func main() {
 // HandlerSequentialSearch menangani pencarian menggunakan Sequential Search
 func HandlerSequentialSearch() {
 	fmt.Println()
@@ -49,6 +50,7 @@ func HandlerSequentialSearch() {
 		fmt.Printf("  Servis Terakhir: %s\n", servis)
 	}
 	TungguEnter()
+}
 }
 
 // HandlerBinarySearch menangani pencarian menggunakan Binary Search
